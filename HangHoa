@@ -48,7 +48,9 @@ public:
 	string getnoisx() {
 		return noisx;
 	}
-	string get
+	string getcolor(){
+		return color;
+	}
 	~HangHoa() {};
 
 	friend istream& operator>>(istream& is, HangHoa& h) {
