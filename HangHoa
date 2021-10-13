@@ -51,6 +51,15 @@ public:
 	string getcolor(){
 		return color;
 	}
+	int getcost(){
+		return cost;
+	}
+	int NgayNhapKho(){
+		return NgayNhapKho;
+	}
+	int Quantity(){
+	
+	}
 	~HangHoa() {};
 
 	friend istream& operator>>(istream& is, HangHoa& h) {
