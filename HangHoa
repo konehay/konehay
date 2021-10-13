@@ -57,11 +57,11 @@ public:
 	int NgayNhapKho(){
 		return NgayNhapKho;
 	}
-	int Quantity(){
-	
+	int getQuantity(){
+		return Quantity;
 	}
+		
 	~HangHoa() {};
-
 	friend istream& operator>>(istream& is, HangHoa& h) {
 		
 	}
